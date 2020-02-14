@@ -1,5 +1,6 @@
-on: push
-
+on:
+  issue_comment:
+    types: [created]
 jobs:
   one:
     runs-on: ubuntu-16.04
