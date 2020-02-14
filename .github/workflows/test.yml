@@ -1,5 +1,5 @@
 on:
-  issue_comment:
+  label:
     types: [created]
 jobs:
   one:
